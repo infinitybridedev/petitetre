@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #747373; /* gris très clair */
+    color: #ffffff; /* texte sombre */
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.section-sides {
+  width: 25%;
+  padding: 10px;
+  margin: 2px;
+  background-color: #333;
+}
+
+.section-sides, img {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.ytb {
+    padding: 10px;
+  margin: 2px;
+  background-color: #333;
+    float: right;
+}
+
+
+.sectioin-sides, data, img {
+  float: right;
+}
+
+
+.blog {
+    padding: 10px;
+  margin: 2px;
+  background-color: #333;
+}
+
+.blog, h1 {
+  color: #a3a3a3;
+}
+
+
+a {
+  background-color: aliceblue;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.ytb, audio {
+  float: right;
+  margin: 2px;
+  padding: 3px;
+}
