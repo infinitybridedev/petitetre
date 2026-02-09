@@ -1,27 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #747373; /* gris très clair */
-    color: #ffffff; /* texte sombre */
-    margin: 0;
-    padding: 2em;
-    text-align: center;
-}
+  margin: 0;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f3fbff;
 
-h1 {
-    font-size: 2em;
-    color: #333;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.5;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 50%, transparent 50%),
+    linear-gradient(rgba(0, 0, 0, 0.04) 50%, transparent 50%);
+  background-size: 40px 40px;
+  text-align: center;
 }
 
 .section-sides {
   width: 25%;
   padding: 10px;
   margin: 2px;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 .section-sides, img {
@@ -33,7 +27,7 @@ p {
 .ytb {
     padding: 10px;
   margin: 2px;
-  background-color: #333;
+  background-color: #ffffff;
     float: right;
 }
 
@@ -47,6 +41,7 @@ p {
     padding: 10px;
   margin: 2px;
   background-color: #333;
+  border-radius: 6px;
 }
 
 .blog, h1 {
@@ -55,16 +50,28 @@ p {
 
 
 a {
-  background-color: aliceblue;
+  background-color: rgb(129, 139, 148);
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #333;
+  color: #4d473f;
   border-radius: 3px;
-  padding: 2px;
+  padding: 10px;
 }
 
 .ytb, audio {
   float: right;
   margin: 2px;
   padding: 3px;
+}
+
+#playPause {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(255,255,255,0.6);
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.2rem;
 }
